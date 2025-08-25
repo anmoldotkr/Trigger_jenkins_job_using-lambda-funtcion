@@ -232,7 +232,3 @@ API_TOKEN = "your-jenkins-api-token"
 * Store **API\_TOKEN** securely (Secrets Manager/SSM).
 * Apply **least privilege** IAM policy for Lambda.
 * Validate incoming webhook signatures if possible.
-
-
-Do you want me to also **add webhook signature validation** (HMAC check) for Bitbucket? That would make your Lambda more secure instead of relying only on event keys.
-```
